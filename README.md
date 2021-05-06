@@ -1,6 +1,10 @@
 # 2048-Lite
 
+<<<<<<< HEAD
  **2048 written in native JS**
+=======
+ 2048 written in native JS
+>>>>>>> 0a68e4bb87f41e4e5246325f06fc22058f5b2e0f
 
 ----------------------------------
 
@@ -10,4 +14,8 @@ I have made this game as an exercise, but also to learn more and practice on my 
 
 Thank you for checking this out.
 
+<<<<<<< HEAD
 <img src="https://i.imgur.com/om5EqWI.png" alt="Demonstration of game" width="400px">
+=======
+<img src="/screenshot.png" alt="Demonstration of game">
+>>>>>>> 0a68e4bb87f41e4e5246325f06fc22058f5b2e0f
