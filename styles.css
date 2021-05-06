@@ -96,3 +96,19 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
+
+.sub {
+    margin-top: 9.5rem;
+    text-align: center;
+}
+
+.sub p {
+    color: rgb(118,110,100);
+    font-size: 14px;
+}
+
+.sub a {
+    color: rgb(118,110,100);
+    font-weight: bold;
+    font-size: 14px;
+}

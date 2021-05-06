@@ -1,22 +1,27 @@
 document.addEventListener('DOMContentLoaded', () =>  {
+
+    // get the HTML elements into JS
+
     const gridDisplay = document.querySelector('.grid');
     const scoreDisplay = document.getElementById('score');
     const resultDisplay = document.getElementById('result');
     let gridArray = [];
     let score = 0;
   
-    // create the board
+    // create the board 
 
     function createBoard() {
         for (let i=0; i < 16; i++) {
-            square = document.createElement('div');
-            square.innerHTML = 0;
-            gridDisplay.appendChild(square);
-            gridArray.push(square);
+            tile = document.createElement('div');
+            tile.innerHTML = 0;
+            gridDisplay.appendChild(tile);
+            gridArray.push(tile);
         }
         addNumber();
         addNumber();
     }
+
+    // initializes the game
 
     createBoard();
   
@@ -32,6 +37,8 @@ document.addEventListener('DOMContentLoaded', () =>  {
         }
     }
   
+    // move functions
+
     function moveRight() {
       for (let i=0; i < 16; i++) {
         if (i % 4 === 0) {
@@ -117,6 +124,8 @@ document.addEventListener('DOMContentLoaded', () =>  {
         }
     }
   
+    // add functions for rows and cols
+
     function addRow() {
         for (let i = 0; i < 15; i++) {
             if (gridArray[i].innerHTML === gridArray[i + 1].innerHTML) {
@@ -198,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
         addNumber();
     }
   
-    // check for 2048
+    // check for win
     
     function checkWin() {
       for (let i=0; i < gridArray.length; i++) {
@@ -241,6 +250,6 @@ document.addEventListener('DOMContentLoaded', () =>  {
     }
 
   addColors();
-  const colorTimer = setInterval(addColors, 5);
+  const colorTimer = setInterval(addColors, 5);  // refresh timer
   
 })
