@@ -1,10 +1,6 @@
 # 2048-Lite
 
-<<<<<<< HEAD
  **2048 written in native JS**
-=======
- 2048 written in native JS
->>>>>>> 0a68e4bb87f41e4e5246325f06fc22058f5b2e0f
 
 ----------------------------------
 
