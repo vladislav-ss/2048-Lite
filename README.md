@@ -10,4 +10,4 @@ I have made this game as an exercise, but also to learn more and practice on my 
 
 Thank you for checking this out.
 
-<img src="screenshot.png" alt="Demonstration of game">
+<img src="/screenshot.png" alt="Demonstration of game">
