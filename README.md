@@ -8,7 +8,7 @@ The game is fully written in native JS, HTML and CSS. I have chosen to call it '
 
 I have made this game as an exercise, but also to learn more and practice on my front end and general programming skills and knowledge.
 
-You can try out the game <a href="https://vladislavscr.github.io/2048-Lite/">HERE (GitHub pages)</a>.
+You can try out the game <a href="https://vladislav-ss.github.io/2048-Lite/">HERE (GitHub pages)</a>.
 
 Thank you for checking this out.
 
